@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "generate:admin-web": "node scripts/admin-web-client-uret.mjs",
     "validate": "node scripts/dogrula.mjs",
     "test": "node --test"
   },
