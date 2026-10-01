@@ -6,6 +6,5 @@ Test projeleri kanitladiklari sinira gore ayrilir:
 - `Entegrasyon/`: veritabani ve dis adapter sinirlarinin gercek testleri,
 - `Mimari/`: proje referansi ve modul sahipligi kurallari.
 
-Test projeleri ilgili Jira davranisiyla birlikte eklenir. TBP-15 business
-davranisi eklemedigi icin bos test assembly'si olusturmaz; architecture test
-altyapisi `TBP-20` kapsamindadir.
+Test projeleri ilgili Jira davranisiyla birlikte eklenir. Architecture test
+altyapisi ve veritabani/katman siniri kurallari `Mimari/` altinda tutulur.
