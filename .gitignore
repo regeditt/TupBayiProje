@@ -1,0 +1,51 @@
+# Ortam ve secret dosyalari
+**/.env
+**/.env.*
+!**/.env.example
+**/appsettings.*.Local.json
+**/secrets.json
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# .NET
+**/bin/
+**/obj/
+**/TestResults/
+**/*.user
+**/*.suo
+**/*.nupkg
+
+# Flutter ve Dart
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/build/
+
+# Node.js ve Next.js
+**/node_modules/
+**/.next/
+**/dist/
+**/coverage/
+*.tsbuildinfo
+
+# Infrastructure
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/.terragrunt-cache/
+
+# IDE, isletim sistemi ve gecici ciktilar
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
